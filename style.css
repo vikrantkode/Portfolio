@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Nunito&family=Open+Sans:wght@400;700&display=swap');
 
 :root {
-    --primary-color: #60A5FA;
+    --primary-color:#10B981;
     --dark-grey: #6B7280;
     --off-white:#F3F4F6
     ;
@@ -18,8 +18,8 @@ hr {
 
 /**Containers**/
 .container {
-    padding-left: 1rem;
-    padding-right: 2rem;
+    padding: 1rem 0rem;
+    
 }
 
 .container-center {
@@ -48,7 +48,7 @@ hr {
 }
 
 .link-secondary {
-    color: (--primary-color);
+    color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
